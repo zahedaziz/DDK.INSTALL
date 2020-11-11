@@ -45,3 +45,9 @@ Edit environment file before run containers for this do next steps:
 3.1 cd ./DDK.INSTALL
 3.2 ./upgrade.sh
 ```
+
+## To watch docker container (to stop watch CTRL+C)
+
+```text
+docker-compose up --build
+```
