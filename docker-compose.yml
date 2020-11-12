@@ -48,6 +48,19 @@ services:
       - POSTGRES_DB=ddk
     restart: always
 
+   cadvisor:
+    image: google/cadvisor:latest
+    container_name: cadvisor-1
+    ports:
+      - "7777:8080"
+    restart: always
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+
 networks:
   ddk-testnet:
     external:
