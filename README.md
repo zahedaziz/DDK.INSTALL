@@ -6,7 +6,7 @@
 - 16 GB RAM
 - HDD 120 GB or more
 
-## Software requirements (docs/setup/requirements.md)
+## Software requirements
 
 - Ubuntu 18.04
 - Docker
