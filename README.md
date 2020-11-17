@@ -7,7 +7,7 @@
 - HDD 120 GB or more
 
 ## Software requirements
-   [REQUIREMENTS](master/requirements.md#)
+   [REQUIREMENTS](requirements.md#)
 
 - Ubuntu 18.04
 - Docker
