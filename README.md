@@ -7,7 +7,7 @@
 - HDD 120 GB or more
 
 ## Software requirements
-[link](DDK.INSTALL/README.md#)
+   [REQUIREMENTS](DDK.INSTALL/requirements.md#)
 
 - Ubuntu 18.04
 - Docker
