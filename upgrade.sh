@@ -1,3 +1,3 @@
 docker-compose down
-docker rmi mediaparkpk/corev1.4.7:latest
+docker rmi ddkoin/1.5.0:latest
 docker-compose up -d
