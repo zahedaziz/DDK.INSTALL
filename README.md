@@ -47,16 +47,18 @@ Edit environment file before run containers for this do next steps:
 3.2 ./upgrade.sh
 ```
 
-## To watch docker container (to stop watch CTRL+C)
+## To watch docker container (to stop watch CTRL+C) and start container again
 
 ```text
-docker-compose up --build
+4.1 cd ./DDK.INSTALL
+4.2 docker-compose up --build
+1.3 ./docker_start_containers.sh
 ```
 ## To see logs and status forging, current height, blocks receiving and etc
 
 ```text
-4.1 cd ./DDK.INSTALL
-4.2 docker-compose logs -f --tail 100
+5.1 cd ./DDK.INSTALL
+5.2 docker-compose logs -f --tail 100
 ```
 <br>It should looks like this
 <br>
