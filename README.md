@@ -58,6 +58,7 @@ docker-compose up --build
 4.1 cd ./DDK.INSTALL
 4.2 docker-compose logs -f --tail 100
 ```
-It should looks like this
-![Image of ddkforging](https://github.com/zahedaziz/DDK.INSTALL/blob/master/forging%20status.png)
+<br>It should looks like this
+<br>
+<img src="https://github.com/zahedaziz/DDK.INSTALL/blob/master/forging%20status.png" width="800"/>
 
