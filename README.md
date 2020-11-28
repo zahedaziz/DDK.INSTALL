@@ -52,3 +52,12 @@ Edit environment file before run containers for this do next steps:
 ```text
 docker-compose up --build
 ```
+## To see logs and status forging, current height, blocks receiving and etc
+
+```text
+4.1 cd ./DDK.INSTALL
+4.2 docker-compose logs -f --tail 100
+
+It should looks like this
+<img src=“https://github.com/KrisKasprzak/ILI9341_t3_controls”>
+```
