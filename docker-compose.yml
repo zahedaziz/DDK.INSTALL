@@ -3,7 +3,7 @@ services:
 
   ddk:
     image: ddkoin/core:1.5.0
-    container_name: ddknode-core-1
+    container_name: ddknode-core-172.104.59.193
     networks:
       ddk-testnet:
         ipv4_address: 10.6.0.5
@@ -21,7 +21,7 @@ services:
     depends_on:
       - ddk
     image: ddkoin/core:1.5.0
-    container_name: ddknode-api-1
+    container_name: ddknode-api-172.104.59.193
     networks:
       ddk-testnet:
         ipv4_address: 10.6.0.6
@@ -47,8 +47,8 @@ services:
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=ddk
     restart: always
-
-   cadvisor:
+    
+  cadvisor:
     image: google/cadvisor:latest
     container_name: cadvisor-1
     ports:
@@ -60,7 +60,7 @@ services:
       - /sys:/sys:ro
       - /var/lib/docker/:/var/lib/docker:ro
       - /dev/disk/:/dev/disk:ro
-
+      
 networks:
   ddk-testnet:
     external:
